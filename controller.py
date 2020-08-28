@@ -15,7 +15,7 @@ def index():
     model = Model()
 
     print('updating default view with default model')
-    return render_template('index.html', data=model)
+    return render_template('view.html', data=model)
 
 
 @app.route('/update/post', methods=['POST'])
@@ -26,7 +26,7 @@ def update_post():
     model = Model(request.form['number'])
 
     print('updating the view with the new model')
-    return render_template('index.html', data=model)
+    return render_template('view.html', data=model)
 
 
 if __name__ == "__main__":
