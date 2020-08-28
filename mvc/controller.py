@@ -2,7 +2,7 @@ from flask import Flask
 from flask import request
 from flask import render_template
 
-from test.model import Model
+from mvc.model import Model
 
 app = Flask(__name__)
 
