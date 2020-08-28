@@ -1,5 +1,5 @@
 to run:
-git clone https://github.com/mlaubend/sample-mvc.git
+- git clone https://github.com/mlaubend/sample-mvc.git
 - mkdir env_mvc
 - virtualenv -p python3 /env_mvc 
 - source env_mvc/bin/activate
